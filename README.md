@@ -61,7 +61,7 @@ mandarin-mcp-server/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/w41ch0ng/mandarin-mcp-server.git
+   git clone https://github.com/w41ch0ng/MandarinMCP.git
    cd mandarin-mcp-server
    ```
 
