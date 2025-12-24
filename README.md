@@ -30,7 +30,7 @@ A Model Context Protocol (MCP) server for learning Mandarin Chinese vocabulary f
 ## Project Structure
 
 ```
-mandarin-mcp-server/
+MandarinMCP/
 ├── src/
 │   └── mandarin_mcp_server/
 │       ├── __init__.py
@@ -62,7 +62,7 @@ mandarin-mcp-server/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/w41ch0ng/MandarinMCP.git
-   cd mandarin-mcp-server
+   cd MandarinMCP
    ```
 
 2. **Install dependencies**
@@ -93,7 +93,7 @@ Add to your Claude Desktop config (`claude_desktop_config.json`):
       "command": "uv",
       "args": [
         "--directory",
-        "/path/to/mandarin-mcp-server",
+        "/path/to/MandarinMCP",
         "run",
         "python",
         "-m",
